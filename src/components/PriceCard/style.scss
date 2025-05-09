@@ -1,0 +1,117 @@
+.pricing__card {
+    width: 406px;
+    height: 745px;
+    background: #F4F6FC;
+    border: 3px solid #F4F6FC;
+    padding: 64px 76px 62px 48px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+    .price {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        strong {
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 56px;
+        }
+
+        span{
+            color: #2405F2;
+        }
+    }
+
+
+    h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+
+    .description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #282938;
+        opacity: 70%;
+        margin-bottom: 58px;
+    }
+
+    .features__button {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex: 1;
+        margin-top: auto;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+
+        button {
+            padding: 16px 76px;
+            border-radius: 41px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 32px;
+            color: #F4F6FC;
+            background: #282938;
+            margin-top: auto;
+        }
+
+
+        .features__wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+
+            .features {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                // margin-bottom: 28px;
+
+                li {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+.blue__wrapper {
+    background: #1C1E53;
+    color: white;
+    background-image: url("../../assets/images/ellipse.png");
+    background-position: top;
+    background-repeat: no-repeat;
+
+    .price{
+
+        span{
+            color: #FCD980;
+        }
+    }
+
+
+    .description{
+        color: #FFFFFF;
+        opacity: 70%;
+    }
+
+    .features__button button{
+        background: #FCD980;
+        color: #282938;
+    }
+}

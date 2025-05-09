@@ -1,0 +1,100 @@
+.contactUs__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+
+    h1 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        width: 562px;
+        opacity: 70%;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 64px;
+    }
+
+    .form {
+        display: flex;
+        background: #F4F6FC;
+        flex-direction: column;
+        padding: 55px 76px 69px 77px;
+        border-radius: 12px;
+
+        .first__part__Inputs,
+        .second__part__Inputs {
+            display: flex;
+            gap: 32px;
+        }
+
+        .second__part__Inputs {
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+
+        .inputs__wrapper {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+            }
+
+            input {
+                padding-block: 18px;
+                text-indent: 0.8cm;
+                border-radius: 8px;
+                width: 438px;
+                background: transparent;
+                border: 1px solid #0000001F;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+
+        .text__area__wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .message {
+                text-indent: 0.8cm;
+                width: 908px;
+                height: 138px;
+                border: 1px solid #0000001F;
+                border-radius: 8px;
+                background: transparent;
+                padding-top: 18px;
+                outline: none;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                margin-bottom: 32px;
+                resize: none;
+            }
+        }
+
+        button {
+            padding: 16px 64px;
+            width: max-content;
+            border-radius: 41px;
+            background: #282938;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 32px;
+            color: #F4F6FC;
+        }
+    }
+
+
+}

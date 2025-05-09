@@ -1,0 +1,40 @@
+.navbar {
+    background: #1C1E53;
+
+    .page__options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 16px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            li{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                color: #BBBBCB;
+            }
+
+            li:last-child {
+                padding-block: 16px;
+                padding-inline: 48px;
+                border: 2px solid #F4F6FC33;
+                border-radius: 41px;
+            }
+
+            .navbar__link.active{
+                color: #FFFFFF;
+            }
+
+        }
+    }
+}
+
+// @media (max-width:1120px) {
+    
+// }
