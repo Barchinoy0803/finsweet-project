@@ -9,6 +9,7 @@ const PriceCard = ({ data }) => {
             <div className='price'>
                 <strong>{data.price}</strong>
                 <span>{data.type}</span>
+                
             </div>
             <h3>{data.title}</h3>
             <p className='description'>{data.description}</p>
